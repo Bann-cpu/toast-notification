@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    position: fixed;
+    font-size: 3rem;
+}
+
+#container{
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tacos {
+    padding: 2rem;
+    color: #feee;
+    background-color: blue;
+}
